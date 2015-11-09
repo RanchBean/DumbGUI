@@ -9,7 +9,7 @@ public class GUIController
  */
 	private GUIFrame baseFrame;
 	
-	public void GUIController()
+	public GUIController()
 	{
 		baseFrame = new GUIFrame(this);
 	}
