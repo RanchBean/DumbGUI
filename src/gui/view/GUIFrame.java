@@ -25,6 +25,8 @@ public class GUIFrame extends JFrame
 		this.setContentPane(basePanel); //Sets the panel in the GUIFrame Required.
 		this.setResizable(false); //Usually a good idea but not required.
 		this.setSize(420,420); //Sets size.
+		this.setTitle("Straight Fire Yo");
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		this.setVisible(true); //Must be last line code in setupFrame method.
 	}
 }
